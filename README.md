@@ -11,7 +11,7 @@ pip install torch==2.0.1
 
 pip install tqdm pandas matplotlib opencv-python lpips scikit-image numba zarr xarray
 
-(2) Download the pretrained weight and datasets from: https://www.kaggle.com/datasets/shuangliangli123/precip_era5_nexrad_mrms
+(2) Download the pretrained weight and datasets from: [https://www.kaggle.com/datasets/shuangliangli123/precip_era5_nexrad_mrms](https://www.kaggle.com/datasets/shuangliangli123/precip-era5-nexrad-mrms)
 
 (3) Modify the paths of the dataset and each necessary file.
 
