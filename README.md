@@ -3,6 +3,7 @@ Forecasting 24-hour kilometer-scale precipitation
 The code of "Accurate Precipitation Forecasting by Efficiently Learning from Massive Atmospheric Variables and Scarce Precipitation Samples".
 
 To get the predicted results:
+
 (1) Create a new environment by:
 
 conda create -n py39 gdal python=3.9
