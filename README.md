@@ -1,5 +1,4 @@
 # PFNet
-Forecasting 24-hour kilometer-scale precipitation
 The code of "Accurate Precipitation Forecasting by Efficiently Learning from Massive Atmospheric Variables and Scarce Precipitation Samples".
 
 To get the predicted results:
