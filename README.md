@@ -7,7 +7,9 @@ To get the predicted results:
 (1) Create a new environment by:
 
 conda create -n py39 gdal python=3.9
+
 pip install torch==2.0.1
+
 pip install tqdm pandas matplotlib opencv-python lpips scikit-image numba zarr xarray
 
 (2) Download the pretrained weight and datasets from: https://www.kaggle.com/datasets/shuangliangli123/precip_era5_nexrad_mrms
