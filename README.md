@@ -15,6 +15,8 @@ pip install tqdm pandas matplotlib opencv-python lpips scikit-image numba zarr x
 
 (3) Modify the paths of the dataset and each necessary file.
 
+(4) Run the script: torchrun --nproc_per_node=1 --master_port=55568 weatherbench2_main/model_prob/PFNet/main_latent.py --epoch 500 --ex_name '260201_usa-precip-baseline' --batch_size 7 --val_batch_size 1 --test 1 --drop 0.0 --clip_grad 0 --eval_iter 1000 --save_iter 10 --test_epoch 100
+
 Then the predicted results initialized from 2017-03-29 06:00:00 and 2017-10-29 12:00:00 will be generated in the qualitative_maps directory.
 
 Should you have any questions, please feel free to contact me at whu_lsl@whu.edu.cn.
